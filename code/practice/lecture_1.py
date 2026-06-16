@@ -1,5 +1,9 @@
-print("Hello World")
-a=44
-b=66
-c=a+b
-print(a+b, c)
+class Person:
+    pass
+    # def __init__(self, name, issmart):
+    #     self.name= name
+    #     self.issmart = issmart
+
+# Developer = Person("Engineer", True)
+Developer = Person()
+print(dir(Developer))
