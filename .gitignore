@@ -2,3 +2,5 @@
 *.json
 **/node_modules/
 *.exe
+**/.venv/
+**.ipynb_checkpoints/
