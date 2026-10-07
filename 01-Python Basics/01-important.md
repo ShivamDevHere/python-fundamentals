@@ -15,3 +15,25 @@
 - **Identity:** (is, is not)
 - **Membership:** (in, not in)
 - **Bitwise:** (& | ^ - << >>)
+
+>String
+
+- **str = "Hello"** here | -5 H 0 | -4 e 1 | -3 l 2 | -2 l 1 | -1 o 0
+- **slice:** str[1:3] results: ell
+- 
+- **Concatenating operators** 
+  1. Mod Operator: print("%s sir", %str)
+  2. Join Operator: print('@'.join([str,str2])) for str2 = " World!"
+  3. F String Operator: print(f"Hello {str2}")
+
+- **Case-Conversion Methods** 
+  1.  capitalize()
+  2.  caefold()
+  3.  lower()
+  4.  upper()
+  5.  swapcase()
+  6.  title()
+
+- **Alignment Methods** 
+   - str = "Welcome to oython" | total = 16
+    1. 
