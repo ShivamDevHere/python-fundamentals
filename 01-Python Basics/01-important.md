@@ -20,7 +20,7 @@
 
 - **str = "Hello"** here | -5 H 0 | -4 e 1 | -3 l 2 | -2 l 1 | -1 o 0
 - **slice:** str[1:3] results: ell
-- 
+  
 - **Concatenating operators** 
   1. Mod Operator: print("%s sir", %str)
   2. Join Operator: print('@'.join([str,str2])) for str2 = " World!"
@@ -35,5 +35,22 @@
   6.  title()
 
 - **Alignment Methods** 
-   - str = "Welcome to oython" | total = 16
-    1. 
+  <img src="../assets/Alignment.jpeg" width="600px" alt="Image">
+
+- **Strip Method**: Removes Char from end
+```python
+mgs = "__Hello_World__  "
+print(mgs.rstrip('_'))
+print(mgs.lstrip('_'))
+print(mgs.strip(' '))
+result = '__Hello_World', 'Hello_World__', '__Hello_World__'
+```
+
+- **Split Method**: split char from right and left
+```python
+msg = "apple, banana, orange"
+print(msg.split(','))       # ['apple', ' banana', ' orange']
+print(msg.rsplit(',',1))    # ['apple, banana', ' orange']      ->  r to l
+print(msg.split(',',1))     # ['apple', ' banana, orange']      ->  l to r
+```
+
