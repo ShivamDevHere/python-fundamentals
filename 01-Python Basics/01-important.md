@@ -54,3 +54,18 @@ print(msg.rsplit(',',1))    # ['apple, banana', ' orange']      ->  r to l
 print(msg.split(',',1))     # ['apple', ' banana, orange']      ->  l to r
 ```
 
+- **Partition Method**: split char from right and left and keep char
+
+```python
+msg = "apple, banana, orange"
+print(msg.partition(','))     # ('apple', ',', ' banana, orange')
+print(msg.rpartition(','))    # ('apple, banana', ',', ' orange')
+```
+
+- **removeprefix and removesuffix() Method**: Also removes matching char
+
+```python
+msg = "Hello World"
+print(msg.removeprefix("Hello "))     # World
+print(msg.removesuffix(" World"))     # Hello
+```
