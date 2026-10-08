@@ -69,3 +69,18 @@ msg = "Hello World"
 print(msg.removeprefix("Hello "))     # World
 print(msg.removesuffix(" World"))     # Hello
 ```
+
+- **Count, Find, Index, Replace:** 
+
+```python
+msg.count("apple")                # 2
+
+msg.find("banana")                # 6
+msg.index("banana")               # 6
+
+msg.find("xyz")                   # -1
+msg.index("xyz")                  # val error
+
+msg.replace("apple", "mango")     # "mango banana mango"
+
+```
